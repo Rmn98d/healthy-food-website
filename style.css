@@ -18,7 +18,7 @@ padding-left: 10px;
   margin-left: 370px;
 }
 .nav-item{
-    /* margin-right: 20px; */
+
     font-size: 20px;
 }
 .nav-link{
@@ -55,7 +55,7 @@ font-weight: bolder;
   
   .ImageSection::before {
     content: "";
-    background-image: url(/images/mainImg.jpg); 
+    background-image: url(images/mainImg.jpg); 
 background-size: cover;
     position: absolute;
     top: 0;
@@ -162,7 +162,7 @@ width:70%;
 
 
 .bgImgSection{
-  background-image:url("/images/bgImg.jpg");
+  background-image:url("images/bgImg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
