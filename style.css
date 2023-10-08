@@ -1,0 +1,558 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.navbar{
+    background-color: #6ac88a;
+    padding:35px;
+    width:100%;
+}
+.navbar-brand h3{
+    color:white;
+font-weight: bold;
+padding-left: 10px;
+}
+
+.navbar .navbar-nav{
+  margin-left: 370px;
+}
+.nav-item{
+    /* margin-right: 20px; */
+    font-size: 20px;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.downloadApp{
+background-color: white;
+padding:5px;
+width:150px;
+border-radius: 50px;
+text-align: center;
+color: #5fc080;
+font-size:17px;
+font-weight: bolder;
+}
+.toggler{
+    border: none;
+    padding:5px 5px 5px 5px ;
+    background-color: white;
+    border-radius:55px;
+    width:50px;
+    /* display: none; */
+}
+.toggler img{
+    height: 40px;
+    
+}
+
+
+.ImageSection{
+  height:600px;
+}
+  
+  .ImageSection::before {
+    content: "";
+    background-image: url(/images/mainImg.jpg); 
+background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:840px;
+    filter: brightness(65%);
+    z-index: -1; 
+  }
+  
+  .ImageSection .content {
+    /* position: relative;  */
+    color: white;
+  }
+  
+  .ImageSection h3 {
+    margin-top: 19%;
+    font-size: 70px;
+    font-weight: bold;
+    padding:0 0 0 30px ;
+  }
+  .ImageSection p {
+    padding:12px 0 15px 30px ;
+    font-size:18px;
+  }
+  .ImageSection .btn{
+    background-color: #3c9e5d;
+    /* position:absolute; */
+    /* margin-top:460px; */
+    padding:15px;
+    border-radius: 50px;
+    color: white;
+    width:150px;
+    font-weight: bold;
+    font-size:17px;
+    margin-left: 50px;
+  }
+
+
+  /* .cardSection .backgroundCircle{
+    position: absolute;
+    background-color: #fef9ee;
+    border-radius:50%;
+    padding:600px 600px 0 600px;
+    width: 100%;
+  } */
+
+.cardSection .row{
+  margin-top:82px;
+ padding:50px 0;
+}
+
+.cardSection .card{
+  padding:20px;
+  border: none;
+  background: transparent;
+}
+.cardSection .card .card-title{
+  color: #5fc080;
+  font-weight: bold;
+}
+.cardSection .card .card-text{
+  width:310px;
+  padding:20px 0;
+  font-size: 18px;
+  color: black;
+}
+.cardSection .card .card-body .btn{
+  background-color: #44af68;
+  padding:10px;
+  border-radius: 50px;
+  color: white;
+  width:160px;
+  font-weight: bold;
+  font-size:17px;
+}
+
+.changeLifeSection .row{
+  background-color: #bae3c8;
+padding:100px 20px;
+}
+.changeLifeSection h1{
+  font-size:70px;
+  font-weight: bold;
+}
+.changeLifeSection p{
+  font-size:17px;
+  padding:15px 0 0 0;
+  width:90%;
+color: black; 
+}
+.changeLifeSection .colImg{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.changeLifeSection .row .img{
+
+width:70%;
+}
+
+
+.bgImgSection{
+  background-image:url("/images/bgImg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+  
+}
+.bgImgSection .Img{
+  padding:90px 40px;
+}
+.bgImgSection .Img img{
+width:100%;
+border-radius:10px;
+}
+     
+
+
+.ourWeeklyDiet{
+  background-color: #1f1d1a;
+  padding:50px 55px;
+}
+.ourWeeklyDiet h1{
+  color: #3c9e5d;
+  text-align: center;
+  padding: 20px 0 40px 0;
+  font-weight: bold;
+  font-size:70px;
+}
+.ourWeeklyDiet .col-xl-3{
+padding: 9px 5px;
+
+}
+.ourWeeklyDiet .row .card-outer{
+  background-color: rgb(180, 232, 121);
+  border-radius: 15px;
+  
+}
+.ourWeeklyDiet .row .card{
+width:100%;
+border-radius:10px;
+overflow: hidden;
+border:none;
+background-color: black;
+border-radius:15px 100px 15px 14px;
+}
+.ourWeeklyDiet .row .card .card-img{
+width:100%;
+height:400px;
+
+}
+.ourWeeklyDiet .row .card .card-img img{
+  width:100%;
+  object-fit: cover;
+  
+}
+
+.ourWeeklyDiet .row .card .card-img:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in;
+}
+
+.ourWeeklyDiet .row .card  a{
+  position: absolute;
+  margin:300px 0 0 30px;
+  
+}
+.ourWeeklyDiet .row .card  a p{
+  color:#3c9e5d;
+font-size: 20px;
+font-weight: bold;
+filter: brightness(150%);
+}
+.ourWeeklyDiet .row .card:hover a p{
+text-decoration: underline 2px;
+  
+}
+
+
+
+
+
+.latestRecipies{
+  background-color: #1f1d1a;
+  padding:50px 55px;
+}
+.latestRecipies h1{
+  color: #3c9e5d;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  font-weight: bold;
+  font-size:60px;
+}
+.latestRecipies p{
+  text-align: center;
+  padding: 0px 0 20px 0;
+
+}
+.latestRecipies .row .col-xl-4{
+padding:4px 4px;
+
+}
+.latestRecipies .row .card-outer{
+  background-color:#3c9e5d;
+  border-radius: 15px;
+  
+}
+.latestRecipies .row .card{
+width:100%;
+border-radius:10px;
+overflow: hidden;
+border:none;
+align-items: center;
+background-color: black;
+border-radius:10px 100px 10px 10px;
+}
+.latestRecipies .row .card .card-img{
+width:100%;
+height:350px;
+
+}
+.latestRecipies .row .card .card-img img{
+  width:100%;
+  object-fit: cover;
+  
+}
+
+.latestRecipies .row .card .card-img:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in;
+}
+
+.latestRecipies .row .card  a{
+  position: absolute;
+  margin:300px 0 0 0px;
+  justify-content: center;
+  
+}
+.latestRecipies .row .card  a p{
+  color:white;
+font-size: 20px;
+font-weight: bold;
+filter: brightness(150%);
+}
+.latestRecipies .row .card:hover a p{
+text-decoration: underline 2px;
+  
+}
+
+
+
+  .gradient-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom , transparent 60%, rgba(0, 0, 0, 0.8));
+    z-index: 1;
+  }
+
+
+.appointmentSection{
+  height:auto;
+
+  background-color: #fef9ee;
+}
+.appointmentSection .bgRow{
+  /* background-color: #5a4312; */
+height:200%;
+}
+.appointmentSection .row .appointmentForm {
+  position: relative; 
+  height:100%;
+
+}
+.appointmentSection .row .form{
+  background: transparent;
+  width: 40%;
+  position: relative;
+  margin-left: 30%;
+}
+
+.appointmentSection .row .form input{
+  border:1px solid black;
+  border-radius:0;
+  height:40px;
+}
+.appointmentSection .row .form textarea{
+  border:1px solid black;
+  border-radius:0;
+ 
+}
+.appointmentSection .row .form .btn{
+  margin-top:10px;
+  background-color: #44af68;
+  padding:10px;
+  border-radius: 50px;
+  color: white;
+  width:140px;
+  font-weight: bold;
+  font-size:17px;
+  border: none;
+}
+.appointmentSection .row .bg-img{
+  margin-top:6%;
+  width: 100%;
+  height:100%;
+  height: 200%;
+  background-color:#bae3c8;
+  position: absolute;
+  border-radius:70%;
+  margin-bottom:10px;
+  /* z-index:1; */
+}
+
+  
+.appointmentSection .row .appointmenForm .trustUsSection{
+position: relative;
+width:100%;
+background-color: #1f1d1a;
+}
+.appointmentSection .row .trustUsSection .trustUsCard{
+justify-content: center;
+}
+
+.appointmentSection .row .trustUsSection .trustUsCard .card{
+  background: transparent;
+  border: none;
+}
+
+
+
+.ScheduleSection {
+  position: relative;
+background-color: #fef9ee;
+height:100%;
+width:100%;
+padding:50px 0px 0 30px;
+
+}
+
+.ScheduleSection .row{
+  height:auto;
+  width:100%;
+
+}
+.ScheduleSection .row .col-xl-4{
+  padding:7px 7px;
+}
+.ScheduleSection h2{
+text-align: center;
+font-size: 60px;
+padding-top:50px;
+font-weight: bold;
+color: #3c9e5d;
+width:100%;
+
+}
+.ScheduleSection p{
+  text-align: center;
+padding-top:10px;
+
+  }
+  .ScheduleSection .row .card{
+    height:255px;
+    border-radius:10px;
+    padding:35px;
+    border: none;
+  width:100%;
+  
+  }
+  .ScheduleSection .row .card1{
+background-color:#bae3c8;
+  }  .ScheduleSection .row .card2{
+background-color: #f9c9c8;
+}
+  .ScheduleSection .row .card3{
+background-color: #fcf0d5;  }
+.ScheduleSection .row .card .card-title{
+  color: #3c9e5d;
+  font-weight: bold;
+  font-size:17px;
+}
+.ScheduleSection .row .card .card-text{
+  color: black;
+  padding:5px 0;
+}
+.ScheduleSection .row .card strong{
+  color: #3c9e5d;
+  font-weight: bold;
+  font-size:25px;
+}
+
+
+.lookingForUs{
+  background-color: #ffffff;
+padding: 60px 0;
+}
+.lookingForUs .row{
+  width:100%;
+}
+.lookingForUs .row .content{
+/* height:300px; */
+color: black;
+padding: 0 250px;
+}
+.lookingForUs .row .content h1{
+  text-align: left;
+  font-size:50px;
+  font-weight: bold;
+  padding:30px 0;
+}
+.lookingForUs .row .content p{
+  text-align: left;
+
+}
+
+
+
+.footerSectiom .row{
+  padding: 25px;
+  background-color: #1f1d1a;
+  display: flex;
+justify-content: center;
+align-items:center;
+color: white;
+
+}
+
+
+
+@media only screen and (max-width:982px){
+  .lookingForUs .row .content{
+         
+    padding: 0 40px;
+    }
+
+    .appointmentSection .row .bg-img{
+      margin-top:40%;
+      width:100%;
+      height:150%;
+      background-color:#bae3c8;
+      position: absolute;
+      border-radius:70%;
+      margin-bottom:10px;
+    }
+    .appointmentSection .row .form{
+      width: 60%;
+      padding:0 10px;
+      margin-left:15%;
+    }
+}
+
+
+@media only screen and (max-width:700px){
+    .downloadApp{
+        display: none;
+    }
+    .peopleSection .row .imgRow .centerImg  {
+          display: flex;
+          justify-content: center;
+        }
+        .lookingForUs .row .content{
+         
+          padding: 0 40px;
+          }
+
+          .appointmentSection .row .bg-img{
+            margin-top:90%;
+            width:100%;
+            height:80%;
+            background-color:#bae3c8;
+            position: absolute;
+            border-radius:70%;
+            margin-bottom:10px;
+          }
+
+          .appointmentSection .row .form{
+            width: 100%;
+            padding:0 10px;
+            margin-left:0%;
+          }
+                   
+          .appointmentSection .row .form .btn{
+            width:100%;
+          }
+          .navbar .navbar-nav{
+            margin-left:0px;
+          }
+
+  
+}
+  
+
