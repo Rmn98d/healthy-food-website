@@ -25,6 +25,10 @@ padding-left: 10px;
     color: white;
     font-weight: bold;
 }
+.nav-link:hover{
+    color:green;
+    font-weight: bold;
+}
 .downloadApp{
 background-color: white;
 padding:5px;
