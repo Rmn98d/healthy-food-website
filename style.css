@@ -59,7 +59,7 @@ font-weight: bolder;
   
   .ImageSection::before {
     content: "";
-    background-image: url("images/mainImg.jpg"); 
+    background-image:url("images"); 
 background-size: cover;
     position: absolute;
     top: 0;
