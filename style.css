@@ -3,6 +3,11 @@
   padding:0;
   box-sizing: border-box;
 }
+body{
+  background-color: saddlebrown;
+  margin:0;
+  padding:0;
+}
 .navbar{
     background-color: #6ac88a;
     padding:35px;
@@ -18,15 +23,11 @@ padding-left: 10px;
   margin-left: 370px;
 }
 .nav-item{
-
+    /* margin-right: 20px; */
     font-size: 20px;
 }
 .nav-link{
     color: white;
-    font-weight: bold;
-}
-.nav-link:hover{
-    color:green;
     font-weight: bold;
 }
 .downloadApp{
@@ -59,18 +60,19 @@ font-weight: bolder;
   
   .ImageSection::before {
     content: "";
-    background-image:url("images/mainImg.jpg"); 
+    background-image: url(/images/mainImg.jpg); 
 background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
     width:100%;
-    height:840px;
+    height:100vh;
     filter: brightness(65%);
     z-index: -1; 
   }
   
   .ImageSection .content {
+    /* position: relative;  */
     color: white;
   }
   
@@ -86,6 +88,8 @@ background-size: cover;
   }
   .ImageSection .btn{
     background-color: #3c9e5d;
+    /* position:absolute; */
+    /* margin-top:460px; */
     padding:15px;
     border-radius: 50px;
     color: white;
@@ -94,10 +98,21 @@ background-size: cover;
     font-size:17px;
     margin-left: 50px;
   }
+
+
+  /* .cardSection .backgroundCircle{
+    position: absolute;
+    background-color: #fef9ee;
+    border-radius:50%;
+    padding:600px 600px 0 600px;
+    width: 100%;
+  } */
+
 .cardSection .row{
   margin-top:82px;
  padding:50px 0;
 }
+
 .cardSection .card{
   padding:20px;
   border: none;
@@ -122,6 +137,7 @@ background-size: cover;
   font-weight: bold;
   font-size:17px;
 }
+
 .changeLifeSection .row{
   background-color: #bae3c8;
 padding:100px 20px;
@@ -140,20 +156,23 @@ color: black;
   padding: 40px;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
+  
 }
 
 .changeLifeSection .row .img{
+
 width:70%;
 }
 
 
 .bgImgSection{
-  background-image:url("images/bgImg.jpg");
+  background-image:url("/images/bgImg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   width:100%;
+  
 }
 .bgImgSection .Img{
   padding:90px 40px;
@@ -221,8 +240,13 @@ font-weight: bold;
 filter: brightness(150%);
 }
 .ourWeeklyDiet .row .card:hover a p{
-text-decoration: underline 2px;  
+text-decoration: underline 2px;
+  
 }
+
+
+
+
 
 .latestRecipies{
   background-color: #1f1d1a;
@@ -238,6 +262,7 @@ text-decoration: underline 2px;
 .latestRecipies p{
   text-align: center;
   padding: 0px 0 20px 0;
+
 }
 .latestRecipies .row .col-xl-4{
 padding:4px 4px;
@@ -246,6 +271,7 @@ padding:4px 4px;
 .latestRecipies .row .card-outer{
   background-color:#3c9e5d;
   border-radius: 15px;
+  
 }
 .latestRecipies .row .card{
 width:100%;
@@ -264,6 +290,7 @@ height:350px;
 .latestRecipies .row .card .card-img img{
   width:100%;
   object-fit: cover;
+  
 }
 
 .latestRecipies .row .card .card-img:hover{
@@ -287,6 +314,9 @@ filter: brightness(150%);
 text-decoration: underline 2px;
   
 }
+
+
+
   .gradient-overlay {
     width: 100%;
     height: 100%;
@@ -297,10 +327,20 @@ text-decoration: underline 2px;
     z-index: 1;
   }
 
+
 .appointmentSection{
   height:auto;
 
   background-color: #fef9ee;
+}
+
+.appointmentSection h1{
+  text-align: center;
+   padding-top:50px; 
+   padding-bottom:30px;
+    color:#3c9e5d; 
+    font-weight: bold; 
+    font-size:55px;
 }
 .appointmentSection .bgRow{
   /* background-color: #5a4312; */
@@ -526,7 +566,49 @@ color: white;
             margin-left:0px;
           }
 
+          .ImageSection .content h3 {
+            font-size:40px;
+
+            margin-top:180px;
+          }
   
+          .appointmentSection h1{
+            font-size:30px;
+          
+          }
+          .cardSection .card .card-text  {
+            width: 100%;
+          }
+          .changeLifeSection .content h1{
+            width: 100%;
+            font-size:30px;
+          }
+          .ourWeeklyDiet  h1{
+            width: 100%;
+            font-size:30px;
+          }
+          .latestRecipies  h1{
+            width: 100%;
+            font-size:30px;
+          }
+          .ScheduleSection  h2{
+            width: 100%;
+            font-size:30px;
+          }
+
+
+        }
+
+@media only screen and (max-width:368px){
+
+        .ImageSection .content h3 {
+          font-size:30px;
+        }
+
+        .appointmentSection h1{
+          font-size:30px;
+        width:100%;
+        }
 }
   
 
