@@ -633,6 +633,20 @@ color: white;
 
           margin-top:98%;
         }
+        .ImageSection .btn{
+          background-color: #3c9e5d;
+          padding:15px;
+          border-radius: 50px;
+          color: white;
+          width:100%;
+          font-weight: bold;
+          font-size:18px;
+          margin-left:0px;
+        }
+        .cardSection .card .card-body .btn{
+          width:100%;
+          font-size:17px;
+        }
 }
   
 
