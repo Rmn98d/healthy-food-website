@@ -28,10 +28,6 @@ padding-left: 10px;
     color: white;
     font-weight: bold;
 }
-.nav-link:hover{
-    color: green;
-    font-weight: bold;
-}
 .downloadApp{
 background-color: white;
 padding:5px;
@@ -62,7 +58,7 @@ font-weight: bolder;
   
   .ImageSection::before {
     content: "";
-    background-image:url("images/mainImg.jpg"); 
+    background-image: url("images/mainImg.jpg"); 
 background-size: cover;
     position: absolute;
     top: 0;
@@ -99,22 +95,27 @@ background-size: cover;
     font-size:17px;
     margin-left: 50px;
   }
+  .cardSection{
+ margin-top:150px;
 
+  }
 .cardSection .row{
- padding:50px 0;
+ padding:50px 0 50px 0px;
 }
+
 
 .cardSection .card{
   padding:20px;
   border: none;
   background: transparent;
+  margin-top: 50px;
+  width: 100%;
 }
 .cardSection .card .card-title{
   color: #5fc080;
   font-weight: bold;
 }
 .cardSection .card .card-text{
-  width:310px;
   padding:20px 0;
   font-size: 18px;
   color: black;
@@ -128,6 +129,8 @@ background-size: cover;
   font-weight: bold;
   font-size:17px;
 }
+
+
 
 .changeLifeSection .row{
   background-color: #bae3c8;
@@ -495,7 +498,23 @@ align-items:center;
 color: white;
 
 }
+@media only screen and (max-width:993px){
+  .cardSection .row{
+  margin-top:190px;
+ width:100vw;
 
+   }
+   .changeLifeSection h1{
+    font-size:50px;
+    font-weight: bold;
+  }
+  .ImageSection h3 {
+    margin-top: 50%;
+    font-size: 70px;
+    font-weight: bold;
+    padding:0 0 0 30px ;
+  }
+}
 
 
 @media only screen and (max-width:982px){
@@ -560,7 +579,7 @@ color: white;
           .ImageSection .content h3 {
             font-size:40px;
 
-            margin-top:180px;
+            margin-top:60%;
           }
   
           .appointmentSection h1{
@@ -589,7 +608,22 @@ color: white;
 
 
         }
+        @media only screen and (max-width:540px){
+          .ImageSection .content h3 {
+            font-size:40px;
 
+            margin-top:80%;
+          }
+  
+        }
+        @media only screen and (max-width:440px){
+          .ImageSection .content h3 {
+            font-size:40px;
+
+            margin-top:90%;
+          }
+  
+        }
 @media only screen and (max-width:368px){
 
         .ImageSection .content h3 {
@@ -599,6 +633,11 @@ color: white;
         .appointmentSection h1{
           font-size:30px;
         width:100%;
+        }
+        .ImageSection .content h3 {
+          font-size:40px;
+
+          margin-top:98%;
         }
 }
   
