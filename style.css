@@ -12,6 +12,11 @@ body{
     padding:35px;
     width:100%;
 }
+.navbar-collapse{
+width:100vw;
+height: auto;
+
+}
 .navbar-brand h3{
     color:white;
 font-weight: bold;
@@ -19,7 +24,10 @@ padding-left: 10px;
 }
 
 .navbar .navbar-nav{
-  margin-left: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width:100%;
 }
 .nav-item{
     font-size: 20px;
@@ -28,15 +36,22 @@ padding-left: 10px;
     color: white;
     font-weight: bold;
 }
+.nav-link:hover{
+  color: rgb(5, 104, 3);
+  font-weight: bold;
+}
 .downloadApp{
 background-color: white;
-padding:5px;
-width:150px;
+padding:9px 50px;
 border-radius: 50px;
 text-align: center;
 color: #5fc080;
 font-size:17px;
 font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .toggler{
     border: none;
@@ -44,7 +59,6 @@ font-weight: bolder;
     background-color: white;
     border-radius:55px;
     width:50px;
-    /* display: none; */
 }
 .toggler img{
     height: 40px;
@@ -73,7 +87,7 @@ background-size: cover;
   }
   
   .ImageSection h3 {
-    margin-top: 30%;
+    margin-top: 260px;
     font-size: 60px;
     font-weight: bold;
     padding:0 0 0 30px ;
@@ -82,6 +96,55 @@ background-size: cover;
     padding:12px 0 15px 30px ;
     font-size:18px;
   }
+  @media only screen and (max-width:1200px){
+    .ImageSection h3 {
+      margin-top: 170px;
+      font-size: 55px;
+    
+    }
+  }
+  @media only screen and (max-width:993px){
+    .ImageSection h3 {
+      margin-top:240px;
+   font-size:47px;
+    }
+    .ImageSection p {
+      padding:12px 0 15px 30px ;
+      font-size:17px;
+    }
+  }
+  @media only screen and (max-width:795px){
+    .ImageSection h3 {
+      margin-top:190px;
+   font-size:45px;
+   
+    }
+    .ImageSection p {
+      padding:12px 0 15px 30px ;
+      font-size:15px;
+    }
+    .ImageSection .btn{
+      background-color: #3c9e5d;
+      padding:13px;
+      border-radius: 50px;
+      color: white;
+      width:100%;
+      font-weight: bold;
+      font-size:15px;
+      margin-left: 50px;
+    }
+  }
+  @media only screen and (max-width:768px){
+    .ImageSection h3 {
+      margin-top:250px;
+     
+    }
+  }
+
+
+
+
+
   .ImageSection .btn{
     background-color: #3c9e5d;
     padding:15px;
@@ -92,12 +155,10 @@ background-size: cover;
     font-size:17px;
     margin-left: 50px;
   }
-.cardSection{
- margin-top:70px;
 
-}
 .cardSection .row{
  padding:50px 0 50px 0px;
+ margin-top:70px;
 }
 
 
@@ -495,21 +556,33 @@ color: white;
 
 }
 @media only screen and (max-width:993px){
-  .cardSection{
-  margin-top:100px;
- width:100vw;
 
-   }
    .changeLifeSection h1{
     font-size:50px;
     font-weight: bold;
   }
-  .ImageSection h3 {
-    margin-top: 20%;
-    font-size: 70px;
-    font-weight: bold;
-    padding:0 0 0 30px ;
+
+  .navbar-collapse{
+    position: absolute;
+    background-color: rgb(221, 251, 210);
+    padding:30px;
+    width:100%;
+  margin-top:340px;
+  height: auto;
+  align-items: center;
+  margin-left:-35px;
   }
+.nav-link{
+  color:rgb(40, 40, 40);
+}
+.nav-link:hover {
+  color:rgb(75, 150, 67);
+}
+.downloadApp{
+  color: rgb(40, 40, 40);
+  width:200px;
+  margin-left: 350px;
+}
 }
 
 
@@ -537,9 +610,7 @@ color: white;
 
 
 @media only screen and (max-width:700px){
-    .downloadApp{
-        display: none;
-    }
+   
     .peopleSection .row .imgRow .centerImg  {
           display: flex;
           justify-content: center;
@@ -572,11 +643,6 @@ color: white;
             margin-left:0px;
           }
 
-          .ImageSection .content h3 {
-            font-size:40px;
-
-            margin-top:60%;
-          }
   
           .appointmentSection h1{
             font-size:30px;
@@ -601,25 +667,40 @@ color: white;
             width: 100%;
             font-size:30px;
           }
-          
+
 
         }
         @media only screen and (max-width:540px){
           .ImageSection .content h3 {
             font-size:40px;
-
-            margin-top:80%;
+            padding:0;
+            margin-top:280px;
+          }
+          .ImageSection .content p {
+            padding:0;
+          }
+          .ImageSection .btn{
+            background-color: #3c9e5d;
+            padding:13px;
+            border-radius: 50px;
+            color: white;
+            width:100%;
+            font-weight: bold;
+            font-size:18px;
+            margin:0 4px;
+          }
+          .cardSection .card .card-body .btn{
+            background-color: #44af68;
+            padding:10px;
+            border-radius: 50px;
+            color: white;
+            width:100%;
+            font-weight: bold;
+            font-size:17px;
           }
   
         }
-        @media only screen and (max-width:440px){
-          .ImageSection .content h3 {
-            font-size:40px;
-
-            margin-top:90%;
-          }
-  
-        }
+      
 @media only screen and (max-width:368px){
 
         .ImageSection .content h3 {
@@ -630,25 +711,27 @@ color: white;
           font-size:30px;
         width:100%;
         }
-        .ImageSection .content h3 {
-          font-size:40px;
-
-          margin-top:98%;
-        }
+       
         .ImageSection .btn{
           background-color: #3c9e5d;
-          padding:15px;
+          padding:13px;
           border-radius: 50px;
           color: white;
           width:100%;
           font-weight: bold;
           font-size:18px;
-          margin-left:0px;
+          margin:0 4px;
         }
         .cardSection .card .card-body .btn{
+          background-color: #44af68;
+          padding:10px;
+          border-radius: 50px;
+          color: white;
           width:100%;
+          font-weight: bold;
           font-size:17px;
         }
+       
 }
   
 
