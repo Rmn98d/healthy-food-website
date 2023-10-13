@@ -92,10 +92,12 @@ background-size: cover;
     font-size:17px;
     margin-left: 50px;
   }
+.cardSection{
+ margin-top:70px;
 
+}
 .cardSection .row{
  padding:50px 0 50px 0px;
- margin-top:70px;
 }
 
 
@@ -599,7 +601,7 @@ color: white;
             width: 100%;
             font-size:30px;
           }
-
+          
 
         }
         @media only screen and (max-width:540px){
