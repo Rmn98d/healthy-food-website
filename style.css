@@ -106,7 +106,7 @@ background-size: cover;
   @media only screen and (max-width:993px){
     .ImageSection h3 {
       margin-top:240px;
-   font-size:47px;
+   font-size:45px;
     }
     .ImageSection p {
       padding:12px 0 15px 30px ;
@@ -115,7 +115,6 @@ background-size: cover;
   }
   @media only screen and (max-width:795px){
     .ImageSection h3 {
-      margin-top:190px;
    font-size:45px;
    
     }
@@ -156,6 +155,9 @@ background-size: cover;
     margin-left: 50px;
   }
 
+  .cardSection {
+    height: auto;
+  }
 .cardSection .row{
  padding:50px 0 50px 0px;
  margin-top:70px;
@@ -648,6 +650,7 @@ color: white;
             font-size:30px;
           
           }
+          
           .cardSection .card .card-text  {
             width: 100%;
           }
