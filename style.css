@@ -158,11 +158,10 @@ background-size: cover;
   }
 
   .cardSection {
-height: 500px;
 justify-content: center;
 display: flex;
 align-items: center;
-
+padding:20px 20px;
   }
 .cardSection .row{
  padding:50px 0 50px 0px;
